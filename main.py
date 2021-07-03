@@ -10,7 +10,7 @@ if(not sys.argv[-1].endswith('.png')):
     exit()
 rd = png.Reader(sys.argv[-1])
 width, height, data, other = rd.read_flat()
-print("%sx%s"%(width,height))
+#print("%sx%s"%(width,height))
 pw = 4
 x, y = (0,0)
 while y<height:
